@@ -42,7 +42,7 @@ def decifrar (msg, chave):
 
 #essa função servirá para entrada de dados
 def inputDados():
-    msg_c = open('mensagemcifrada.txt','w')
+    msg_c = open('mensagem_cifrada.txt','w')
     msg = input('\nDigite a mensagem: \n')
     chave = int(input('Digite um numero inteiro de 1 à 22:\n'))
     
