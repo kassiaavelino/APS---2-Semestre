@@ -48,7 +48,7 @@ def inputDados():
     
     #kassiiiiaaaaa
     msg_c = open('mensagem_cifrada.txt','a')
-    msg_c.write(msg, chave)#nao faço ideia do que colocar aquiii, socorroooo
+    msg_c.write(msg)#nao faço ideia do que colocar aquiii, socorroooo
     print("Operação concluída no arquivo "+ msg_c.name)
     msg_c.close()
 
