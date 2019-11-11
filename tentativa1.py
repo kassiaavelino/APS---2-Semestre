@@ -60,7 +60,7 @@ def main():
             result = cifrar(msg, chave)
             outputDados(result, chave) 
             msg_c = open('cifrada.txt','a')
-            msg_c.write("\n"+ msg)
+            msg_c.write("\n"+ result)
             msg_c.close()  
 
         elif(opcMenu == 2):
@@ -68,7 +68,7 @@ def main():
             result = decifrar(msg, chave)
             outputDados(result, chave) 
             msg_c = open('decifrada.txt','a')
-            msg_c.write("\n" + msg)
+            msg_c.write("\n" + result)
             msg_c.close()  
 
         elif(opcMenu == 3):
